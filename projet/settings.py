@@ -40,7 +40,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Renouvellement',
     'Medicament',
-    'Composition'
+    'Composition',
+    'Compte',
+    'FormulaireRe',
+    'FormulaireEn',
+    'FormulaireVa',
+    'FormulaireMo',
+    'FormulaireIns',
+    'FormulaireAcce',
 ]
 
 MIDDLEWARE = [

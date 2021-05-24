@@ -20,5 +20,13 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('Renouvellement.urls')),
     path('Medicament',include('Medicament.urls')),
-    path('Composition',include('Composition.urls'))
+    path('Composition',include('Composition.urls')),
+    path('Compte', include('Compte.urls')),
+    path('Formulairere', include('FormulaireRe.urls')),
+    path('Formulaireen', include('FormulaireEn.urls')),
+    path('Formulaireva', include('FormulaireVa.urls')),
+    path('Formulairemo', include('FormulaireMo.urls')),
+    path('Formulaireins', include('FormulaireIns.urls')),
+    path('Formulaireacce', include('FormulaireAcce.urls')),
+
 ]

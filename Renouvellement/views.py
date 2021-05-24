@@ -2,5 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 # Create your views here.
-def home(request):
-    return render(request,'Renouvellement/acceuil.html')
+def pape1(request):
+    return render(request,'Renouvellement/pape.html')
