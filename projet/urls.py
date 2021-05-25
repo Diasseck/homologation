@@ -21,7 +21,6 @@ urlpatterns = [
     path('',include('Renouvellement.urls')),
     path('Medicament',include('Medicament.urls')),
     path('Composition',include('Composition.urls')),
-    path('Compte', include('Compte.urls')),
     path('Formulairere', include('FormulaireRe.urls')),
     path('Formulaireen', include('FormulaireEn.urls')),
     path('Formulaireva', include('FormulaireVa.urls')),

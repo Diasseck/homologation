@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'Renouvellement',
     'Medicament',
     'Composition',
-    'Compte',
+    'Module',
     'FormulaireRe',
     'FormulaireEn',
     'FormulaireVa',

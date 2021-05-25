@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import FormulaireEn
+from .models import FormulaireMod
 # Register your models here.
 
-admin.site.register(FormulaireEn)
+admin.site.register(FormulaireMod)
